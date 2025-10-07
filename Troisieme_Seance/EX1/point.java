@@ -7,4 +7,8 @@ public class point {
         this.x = x;
         this.y = y;
     }
+    // 
+    public String toString(){
+        return "point [x="+ x + ",y=" + y + "]";  
+    }
 }

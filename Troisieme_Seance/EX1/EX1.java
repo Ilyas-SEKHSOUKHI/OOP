@@ -10,7 +10,7 @@ public class EX1 {
         point C;
         C = new point(5, 6);
         cercle A;
-        A = new cercle(C,7); // Affichage xxxxxxxxx ne fonctionne pas
+        A = new cercle(C,7); 
         affichage(A);
     }
 }
