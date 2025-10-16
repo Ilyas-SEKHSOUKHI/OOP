@@ -1,9 +1,9 @@
 package EX3;
 
-public class CompteBancaire {
+public class CompteBancaire { // Class
     String titulaire;
     double soldes;
-    public CompteBancaire(String titulaire,double soldes){
+    public CompteBancaire(String titulaire,double soldes){ // Constructer
         this.titulaire = titulaire;
         this.soldes = soldes;
     } 
