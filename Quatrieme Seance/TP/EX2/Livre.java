@@ -1,17 +1,31 @@
 package EX2;
 
 public class Livre {
-    String titre;
-    String auteur;
-    int anneePublication;
-    double prix;
-    int nbPages;
-    public Livre(String titre,String auteur,int anneePublication,double prix,int nbPages){
+    private String titre;
+    private String auteur;
+    private int anneePublication;
+    private double prix;
+    private int nbPages;
+    public Livre(){ // Constructeur by default
+        this.titre = "Inconnue";
+        this.auteur = "Inconnue";
+        this.anneePublication = 0;
+        this.prix = 0;
+        this.nbPages = 0;
+    }
+    public Livre(String titre,String auteur,int anneePublication,double prix,int nbPages){ // Constructeur 
         this.titre = titre;
         this.auteur = auteur;
         this.anneePublication = anneePublication;
         this.prix = prix;
         this.nbPages = nbPages;
+    }
+    public Livre(Livre other){ // Constructeur de Copie 
+        this.titre = other.titre;
+        this.auteur = other.auteur;
+        this.anneePublication = other.anneePublication;
+        this.prix = other.prix;
+        this.nbPages = other.nbPages;
     }
     public String getTitre(){
         return titre;
@@ -68,6 +82,18 @@ public class Livre {
             return 0;
         }
     }
+    
+    @Override
+    public String toString(){
+        return(
+            "Titre : "+titre+ 
+            "Auteur : "+auteur+
+            "Anne Publication : "+anneePublication+
+            "Prix : "+prix+
+            "Nombre Pages : "+nbPages
+        );
+    }
+
     public void affichage(){
         System.out.println("Titre = "+titre);
         System.out.println("Auteur = "+auteur);

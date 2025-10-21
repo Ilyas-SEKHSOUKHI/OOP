@@ -1,10 +1,17 @@
 package EX1;
-public class Point2D {
-    public double x;
-    public double y;
+public class Point2D { // La class
+    private double x; // attribue 1
+    private double y; // attribue 2
+    public Point2D(){ // Constructer By Default
+        this(0,0);
+    }
     public Point2D(double x,double y){ // Constructer
         this.x=x;
         this.y=y;
+    }
+    public Point2D(Point2D other){ // Constructer de copie
+        this.x=other.x;
+        this.y=other.y;
     }
     public double getX(){ // get x
         return x;
