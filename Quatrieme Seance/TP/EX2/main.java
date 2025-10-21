@@ -17,7 +17,7 @@ public class main {
     public static void main(String[] args) {
         Livre A = new Livre("Book1", "Auteur1", 1880, 200, 300);
         Livre B = new Livre("Book2", "Auteur2", 2005, 250, 320);
-        /* 
+        
         A.appliquerRemise(20);
         B.appliquerRemise(20);
         
@@ -31,7 +31,7 @@ public class main {
 
         A.affichage();
         B.affichage();
-        */
+        
         System.out.println(A.toString());
         System.out.println(B.toString());
     }
