@@ -82,15 +82,15 @@ public class Livre {
             return 0;
         }
     }
-    
+
     @Override
     public String toString(){
         return(
-            "Titre : "+titre+ 
-            "Auteur : "+auteur+
-            "Anne Publication : "+anneePublication+
-            "Prix : "+prix+
-            "Nombre Pages : "+nbPages
+            "Titre : "+this.titre+ 
+            "Auteur : "+this.auteur+
+            "Anne Publication : "+this.anneePublication+
+            "Prix : "+this.prix+
+            "Nombre Pages : "+this.nbPages
         );
     }
 

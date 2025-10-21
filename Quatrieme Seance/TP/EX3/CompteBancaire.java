@@ -46,4 +46,12 @@ public class CompteBancaire { // Class
         System.out.println("Appliquer Frais = "+A.AppliquerFrais(20));
         System.out.println("Appliquer Interets = "+A.AppliquerInterets(20));
     }
+    @Override
+    public String toString(){
+        return(
+            "Titulaire"+this.titulaire+
+            "solde"+this.soldes
+        );
+    }
+
 }

@@ -30,7 +30,13 @@ public class Point2D { // La class
         System.out.println(x);
         System.out.println(y);
     }
-    
+    @Override
+    public String toString(){
+        return(
+            "x"+this.x+
+            "y"+this.y
+        );
+    }
     /*public void move(double dx,double dy){
 
     }
