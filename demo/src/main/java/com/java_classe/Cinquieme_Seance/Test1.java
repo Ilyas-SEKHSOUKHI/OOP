@@ -1,3 +1,4 @@
+// TD Heritage EX1 Constructeur et super
 package Cinquieme_Seance;
 
 class A {

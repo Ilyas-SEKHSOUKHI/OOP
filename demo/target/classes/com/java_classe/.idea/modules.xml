@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Développement orienté objet.iml" filepath="$PROJECT_DIR$/Développement orienté objet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quatrieme Seance/Quatrieme Seance.iml" filepath="$PROJECT_DIR$/Quatrieme Seance/Quatrieme Seance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Troisieme_Seance/Troisieme_Seance.iml" filepath="$PROJECT_DIR$/Troisieme_Seance/Troisieme_Seance.iml" />
+    </modules>
+  </component>
+</project>
