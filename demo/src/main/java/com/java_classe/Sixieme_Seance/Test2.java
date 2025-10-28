@@ -16,3 +16,7 @@ public class Test2 {
         new Enfant();
     }
 }
+/*
+ * Le constructeur de l’enfant appelle celui du parent avec super(),
+ * donc le message du parent s’affiche avant celui de l’enfant.
+ */

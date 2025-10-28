@@ -23,3 +23,7 @@ public class TestHeritage {
        //ref.saluer();
     }
 }
+/*
+Toutes les lignes s’exécutent sauf ref.saluer(), car le type Parent ne connaît pas la méthode saluer().
+Pour l’exécuter, il faut caster : ((Enfant) ref).saluer();
+ */

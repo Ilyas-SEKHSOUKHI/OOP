@@ -14,3 +14,8 @@ public class Test6 {
         new C();
     }
 }
+/*
+Lorsqu’un objet d’une classe dérivée est créé,
+les constructeurs des classes parentes sont appelés
+automatiquement dans l’ordre de l’héritage.
+ */

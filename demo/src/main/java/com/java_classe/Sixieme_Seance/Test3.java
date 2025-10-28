@@ -14,3 +14,7 @@ public class Test3 {
         System.out.println(c.nom);
     }
 }
+/*
+L’objet Chien hérite des attributs de la classe Animal
+et peut utiliser à la fois ses propres attributs et ceux du parent.
+*/

@@ -13,3 +13,8 @@ public class Test4 {
         System.out.println(((A)b).x);
     }
 }
+/*
+Quand un attribut du même nom existe dans la classe fille,
+il masque celui du parent. Le type de référence détermine
+quel attribut est utilisé.
+ */

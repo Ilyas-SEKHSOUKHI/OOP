@@ -1,5 +1,5 @@
 // TD Heritage EX1 Constructeur et super
-package Cinquieme_Seance;
+package com.java_classe.Cinquieme_Seance;
 
 class A {
     A(){
@@ -16,3 +16,7 @@ public class Test1 {
         B obj = new B();
     }
 }
+/*
+Lorsqu’un objet B est créé, le constructeur de la classe parent A est appelé en premier,
+puis celui de B. Cela illustre l’ordre automatique des constructeurs dans l’héritage.
+ */

@@ -24,3 +24,8 @@ public class TestThisSuper {
         e.test();
     } 
 }
+/*
+- this.x et this.afficher() utilisent les membres de la classe Enfant.
+- super.x et super.afficher() accèdent aux membres de la classe Parent.
+- this fait référence à l’objet actuel, super fait référence à la classe parent.
+ */

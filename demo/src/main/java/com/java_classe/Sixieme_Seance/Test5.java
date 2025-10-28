@@ -18,3 +18,7 @@ public class Test5 {
         v.klaxonner();
     }
 }
+/*
+La classe Voiture hérite des méthodes de la classe Vehicule
+et peut les utiliser en plus de ses propres méthodes.
+ */
