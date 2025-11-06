@@ -20,6 +20,6 @@ public class Chat extends Animal{
     } 
     @Override
     public void describe(){
-        
+        System.out.println("Animal agile et indépendant, curieux et souvent affectueux.");
     }
 }

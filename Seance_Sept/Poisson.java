@@ -20,15 +20,15 @@ public class Poisson extends Animal implements Nageur{
     }
     @Override
     public void nager(){
-
+        System.out.println("Nager");
     }
     @Override
     public void plonger(){
-
+        System.out.println("Plonger");
     }
     @Override
     public void describe(){
-        
+        System.out.println("Animal aquatique silencieux, paisible et gracieux dans ses mouvements.");
     }
 
 }

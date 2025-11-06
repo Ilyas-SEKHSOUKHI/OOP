@@ -19,12 +19,12 @@ public class Chien extends Animal implements Nageur {
     }
     @Override
     public void describe(){
-        
+        System.out.println("Fidèle compagnon, protecteur et plein d’énergie.");
     }
     public void nager(){
-
+        System.out.println("Nager");
     }
     public void plonger(){
-
+        System.out.println("Plonger");
     }
 }

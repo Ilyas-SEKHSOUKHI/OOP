@@ -19,12 +19,12 @@ public class Aigle extends Animal implements Volant {
         this.age = other.age;
     }
     public void describe(){
-
+        System.out.println("Oiseau majestueux au regard perçant, symbole de puissance et de liberté.");
     }
     public void voler(){
-
+        System.out.println("Voler");
     }
     public void atterrir(){
-        
+        System.out.println("Atterrir");
     }
 }
