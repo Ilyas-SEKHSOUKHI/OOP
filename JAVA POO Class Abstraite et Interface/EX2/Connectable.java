@@ -5,6 +5,6 @@ Créez une interface ‘Connectable’ avec :
     ‘deconnecterWifi()’
 */
 public interface Connectable {
-    public abstract void Connectable();
+    public abstract void Connectable1();
     public abstract void deconnecterWifi();
 }

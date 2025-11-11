@@ -25,7 +25,7 @@ public class AspirateurRobot extends Appareil implements Connectable {
         System.out.println("");
     }
     @Override
-    public void Connectable(){
+    public void Connectable1(){
         System.out.println("");
     }
     @Override
